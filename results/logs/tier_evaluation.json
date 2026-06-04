@@ -1,0 +1,26 @@
+{
+  "Tier 1 FP32 640": {
+    "mAP50": 0.7493,
+    "mAP50-95": 0.3432,
+    "Precision": 0.8193,
+    "Recall": 0.6844,
+    "EvalTime_s": 28.4,
+    "ModelSize_MB": 11.7
+  },
+  "Tier 2 INT8 640": {
+    "mAP50": 0.7554,
+    "mAP50-95": 0.3467,
+    "Precision": 0.8166,
+    "Recall": 0.692,
+    "EvalTime_s": 27.4,
+    "ModelSize_MB": 3.2
+  },
+  "Tier 3 INT8 320": {
+    "mAP50": 0.343,
+    "mAP50-95": 0.1004,
+    "Precision": 0.5604,
+    "Recall": 0.3536,
+    "EvalTime_s": 15.3,
+    "ModelSize_MB": 3.0
+  }
+}
